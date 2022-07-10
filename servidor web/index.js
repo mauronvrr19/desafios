@@ -20,6 +20,10 @@ server.on('error', (err) => {
 
 // rutas
 
+app.get ("/", async (req, res)=>{
+  res.send ("bienvenidos")
+})
+
 app.get ("/productos", async (req, res)=>{
   let prod
     try {
