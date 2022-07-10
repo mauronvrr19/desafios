@@ -39,7 +39,7 @@ res.send(prod)
   app.get ("/productosRandom", async(req, res)=>{
     let producto_azar
      try {
-         const azar = Math.floor(Math.random()*3);
+         const azar = Math.floor(Math.random()*4);
       producto_azar = await nombreArchivo.getById(azar)
      } catch (error) {
        console.log(error)
