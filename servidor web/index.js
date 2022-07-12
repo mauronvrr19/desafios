@@ -9,7 +9,7 @@ const nombreArchivo =  new Contener("./productos.txt")
 
 const app = express();
 
-const puerto = 8080;
+const puerto = process.env.PORT || 8080;
 const server = app.listen(puerto, () =>
   console.log('Server Up en puerto', puerto)
 );
