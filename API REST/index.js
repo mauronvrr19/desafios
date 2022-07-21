@@ -9,6 +9,8 @@ const nombreArchivo =  new Contener("./productos.json")
 
 const app = express();
 app.use(express.static("public"))
+app.use(express.urlencoded({ extended: true }));
+
 
 // router
 const router = express.Router()
@@ -24,6 +26,11 @@ server.on('error', (err) => {
   console.log('ERROR =>', err);
 });
 
+// redirige a al index.html
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public/index.html")
+})
+
 // rutas
 
 router.get ("/productos", async (req, res)=>{
@@ -34,7 +41,7 @@ router.get ("/productos", async (req, res)=>{
             catch (error) {
                  error
     }
-res.send(prod)
+    res.send(prod)
   })
 
 
@@ -47,7 +54,7 @@ res.send(prod)
      } catch (error) {
        error
      }
-   res.send(producto)
+     res.send(producto)
    })
   
    router.post("/productos", async(req, res)=> {
