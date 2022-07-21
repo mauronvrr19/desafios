@@ -6,24 +6,21 @@
 		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png"
 	},
 	{
-		"id": 3,
-		"title": "Globo Terráqueo",
-		"price": 345.67,
-		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"
-	},
-	{
 		"id": 2,
 		"title": "mauro",
 		"price": 4.56,
 		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png"
 	},
 	{
+		"id": 3,
+		"title": "Globo Terráqueo",
+		"price": 345.67,
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"
+	},
+	{
+		"title": "prueba del post",
+		"price": 345.67,
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
 		"id": 4
-	},
-	{
-		"id": 5
-	},
-	{
-		"id": 6
 	}
 ]
