@@ -10,37 +10,39 @@
 
 
    <h2> prueba tipo get</h2>
-   <form action="api/productos" method="get">
-<button>productos</button>
-   </form>
+   <form action="/api/productos" method="get">
+    <input type="submit" value="Submit">
+</form>
 
    <h2> prueba tipo get por id</h2>
-<form action="api/productos/" method="get">
+<form action="/api/productos" method="get">
    <input name="id" type="number">
-    <input type="submit">
+   <input type="submit" value="Submit">
 </form>
 
 <h2>metodo post</h2>
-<form action="api/productos/" method="post">
-    <input type="text" name="title" />
-    <input type="number" name="price" />
-    <input type="url" name="thumbnail" />
-    <input type="submit">
+<form action="/api/productos" enctype="multipart/form-data" method="POST">
+    title: <input type="text" name="title">
+    price: <input type="number" name="price">
+    thumbnail: <input type="text" name="thumbnail">
+    <input type="submit" value="Submit">
+    <button>volver</button>
 </form>
 
     <h2>metodo put</h2>
-        <form action="api/productos/:id" method="put">
-             <input name="id" type="number">
-             <input type="text" name="title" />
-              <input type="number" name="price" />
-              <input type="url" name="thumbnail" />
-                      <button>enviar</button>
-        </form>
+        <form action="/api/productos/:id" method="put">
+             id : <input name="id" type="number">
+             title: <input type="text" name="title">
+             price: <input type="number" name="price">
+             thumbnail: <input type="text" name="thumbnail">
+             <input type="submit" value="Submit">
+             <button>volver</button>
+            </form>
 
     <h2>borrar por id</h2>
-        <form action="api/productos/" method="delete">
+        <form action="/api/productos/" method="delete">
           <input name="id" type="number">
-          <button>enviar</button>
+          borrar : <input type="submit" value="Submit">
         </form>
 
 </body>
