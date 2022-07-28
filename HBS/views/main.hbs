@@ -1,0 +1,13 @@
+
+{{#if prod}}
+    <ul>
+        {{#each prod}}
+            <li class={{this.id}}></li>
+           <li> descripcion: {{this.title}} </li>
+           <li> precio: {{this.price}}</li>
+           <li> url: {{this.thumbnail}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
+
+<a href={{"http://localhost:8080/api/productos"}}><button class="btn btn-success mt-3 mb-5">productos cargados</button></a>
