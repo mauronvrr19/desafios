@@ -1,0 +1,20 @@
+[
+	{
+		"title": "prueba del post",
+		"price": "15",
+		"thumbnail": "maur@mmm.com",
+		"id": 1
+	},
+	{
+		"title": "prueba two",
+		"price": "111",
+		"thumbnail": "tree@mauro.com",
+		"id": 2
+	},
+	{
+		"title": "regla",
+		"price": "150",
+		"thumbnail": "aaaa",
+		"id": 3
+	}
+]
