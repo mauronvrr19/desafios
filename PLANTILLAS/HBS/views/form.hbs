@@ -1,0 +1,14 @@
+<h1>PRODUCTOS</h1>
+<form action="/api/" encty{{#if prod}}
+    <ul>
+        {{#each prod}}
+            {{!-- <li class={{this.id}}></li> --}}
+            <br>
+           <li> descripcion: {{this.title}} </li>
+           <li> precio: {{this.price}}</li>
+           <li> url: {{this.thumbnail}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
+
+<a href='http://localhost:8080/api'><button class="btn btn-success mt-3 mb-5">cargar producto</button></a>

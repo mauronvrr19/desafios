@@ -1,0 +1,30 @@
+
+    <h1>ingrese un producto</h1>
+
+            <br>
+
+            <form action="/api/productos" method="post">
+
+                <div class="form-group">
+                    <label for="title"><b>Title</b></label>
+                    <input id="title" class="form-control" type="text" name="title">
+                </div>
+<br>
+                <div class="form-group">
+                    <label for="price"><b>Price</b></label>
+                    <input id="price" class="form-control" type="number" name="price">
+                </div>
+<br>
+
+                <div class="form-group">
+                    <label for="thumbnail"><b>Thumbnail</b></label>
+                    <input id="thumbnail" class="form-control" type="text" name="thumbnail">
+                </div>
+<br>
+
+                <button class="btn btn-success mt-3 mb-5">Enviar</button>
+            </form>
+            <br/>
+        
+
+  <a href="http://localhost:8080/api/productos"><button class="btn btn-success mt-3 mb-5">productos cargados</button></a>
