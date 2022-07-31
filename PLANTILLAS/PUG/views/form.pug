@@ -1,0 +1,24 @@
+html 
+head
+    title productos ingresados  
+body 
+    main 
+    if (prod.length > 0)
+        section
+            table
+                ul 
+                    li Title
+                    li Price
+                    li Thumbnail
+        each pro in prod
+                    ul 
+                        li= pro.title
+                        li= pro.price
+                        li= pro.thumbnail
+                            
+    else
+        h3.alert.alert-danger No hay productos cargados
+    br
+    
+    a(href="http://localhost:8080/api")
+        button.btn.btn-success.mt-3.mb-5 agregar producto
