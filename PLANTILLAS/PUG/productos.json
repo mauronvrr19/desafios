@@ -1,0 +1,26 @@
+[
+	{
+		"title": "tijera",
+		"price": "150",
+		"thumbnail": "qq",
+		"id": 1
+	},
+	{
+		"title": "pizza",
+		"price": "111",
+		"thumbnail": "mauro",
+		"id": 2
+	},
+	{
+		"title": "compu",
+		"price": "666",
+		"thumbnail": "SSSS",
+		"id": 3
+	},
+	{
+		"title": "CELU",
+		"price": "1500000",
+		"thumbnail": "AASD",
+		"id": 4
+	}
+]
